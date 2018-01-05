@@ -12,6 +12,9 @@
   .navbar {
     display: inline-flex;
   }
+  img {
+    src: none;
+  }
 }
 .navbar {
   margin-bottom: auto;
@@ -23,7 +26,7 @@ body {
 }
 
 h1 {
-  color: #FFCCBC;
+  color: #F9A825;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -46,12 +49,28 @@ hr {
   margin-right: -15px;
 
 }
-.jumbotron h1 {
+.jumbotron h1, h2 {
   margin-top: 10px;
+  color: #F9A825;
+}
+.jumbotron .row {
+  display: inline-flex;
+}
+#flipme {
+  transform: rotate(90deg);
 }
 @media (min-width: 767px) {
   .container-fluid .jumbotron {
     padding-top: 1px;
     padding-bottom: 5px;
   }
+}
+a:link {
+  color: #FFAB91;
+}
+a:visited {
+  color: #FBE9E7;
+}
+a:hover {
+  /*Might change this but I think it looks fine how it is*/
 }
