@@ -1,0 +1,9 @@
+h1 {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  color: blue;
+}
+.navbar {
+  display: inline-flex;
+}
