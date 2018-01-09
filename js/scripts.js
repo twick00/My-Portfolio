@@ -4,25 +4,41 @@ $(function() {
         $("#projects").hide();
         $("#about-me").hide();
         $("#contact").hide();
+        // $("#home-button").addClass("selected-button");
+        // $("#projects-button").removeClass("selected-button");
+        // $("#aboutme-button").removeClass("selected-button");
+        // $("#contact-button").removeClass("selected-button");
+
     })
     $("#projects-button").click(function() {
         $("#projects").show();
         $("#home").hide();
         $("#about-me").hide();
         $("#contact").hide();
+        // $("#home-button").removeClass("selected-button");
+        // $("#projects-button").addClass("selected-button");
+        // $("#aboutme-button").removeClass("selected-button");
+        // $("#contact-button").removeClass("selected-button");
     })
     $("#aboutme-button").click(function () {
         $("#home").hide();
         $("#projects").hide();
         $("#about-me").show();
         $("#contact").hide();
+        // $("#home-button").removeClass("selected-button");
+        // $("#projects-button").removeClass("selected-button");
+        // $("#aboutme-button").addClass("selected-button");
+        // $("#contact-button").removeClass("selected-button");
     })
     $("#contact-button").click(function () {
         $("#home").hide();
         $("#projects").hide();
         $("#about-me").hide();
         $("#contact").show();
-        $("#contact-button")
+        // $("#home-button").removeClass("selected-button");
+        // $("#projects-button").removeClass("selected-button");
+        // $("#aboutme-button").removeClass("selected-button");
+        // $("#contact-button").addClass("selected-button");
     })
 })
 
@@ -30,7 +46,7 @@ $(function() {
 //This is sliding functions, I don't like how it looks
 $(function() {
     $("#home-button").click(function () {
-        $("#home").slideDown();
+        $("#home").slideDown(); 
         $("#projects").slideUp();
         $("#about-me").slideUp();
         $("#contact").slideUp();
