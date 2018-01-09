@@ -4,6 +4,18 @@
     text-align: center;
     position: relative;
   }
+  #projects {
+    display: none;
+  }
+  #home {
+    display: none;
+  }
+  #about-me {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
   .navbar {
     display: inline-flex;
   }
@@ -26,12 +38,16 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(191, 54, 12, 1)  , rgba(0, 0, 0, 0));
-  margin-top: 0px;
+  margin-top: 20px;
+}
+.btn-primary {
+  background-color: transparent;
+  border-color: #bf360c;
 }
 .container-fluid .jumbotron {
   background-color: inherit;
   color: #795548;
-  font-family:
+  /* font-family:  */
   margin: auto;
   text-align: center;
   position: relative;
@@ -64,9 +80,6 @@ a:link {
 }
 a:visited {
   color: #D7CCC8;
-}
-a:hover {
-  /*Might change this but I think it looks fine how it is*/
 }
 .panel-body {
   background-color: #42270f;
