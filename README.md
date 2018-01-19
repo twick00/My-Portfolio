@@ -13,3 +13,7 @@ This page was made with HTML, CSS and Bootstrap.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+
+## GH-Pages
+
+This page is hosted on GH-Pages here: [My-Portfolio](https://twick00.github.io/My-Portfolio/)
