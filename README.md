@@ -12,7 +12,7 @@ This page was made with HTML, CSS and Bootstrap.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE) file for details
 
 ## GH-Pages
 
