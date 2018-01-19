@@ -1,5 +1,15 @@
 # My-Portfolio
 
-This is a webpage that I made for a school project!
+This is a small webpage to host my portfolio
 
-### Its not even close to being complete but I feel really good about it!
+## Languages
+
+This page was made with HTML, CSS and Bootstrap.
+
+## Authors
+
+* **Tyler Wickline** - [Twick00](https://github.com/twick00)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
